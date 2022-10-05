@@ -1,0 +1,30 @@
+.AboutInfo{
+    width: 100vw;
+    height: 40vh;
+    box-sizing: border-box;
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/09/south-african-food-potjiekos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    align-items: center;
+}
+.aboutInfo-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;   
+    margin: auto;
+}
+.aboutInfo-content .aboutInfo-slot{
+    margin-top: 7rem;
+}
+.aboutInfo-count{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.aboutInfo-heading{
+    font-weight: 300;
+    letter-spacing: 1px;
+}

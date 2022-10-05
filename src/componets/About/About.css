@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+.about{
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.about-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-img{
+  height: 800px;
+  width: 600px;
+  border-radius: 0px;
+}
+.about-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+.about-content{
+  display: inline;
+  text-align: start;
+}
+.about-heading{
+  font-family: "Passions Conflict";
+  font-size: 50px;
+  color: rgb(222, 44, 92);
+}
+.about-sub-heading{
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.about-paragraph{
+  color: rgb(149, 145, 145);
+}
+.about-special{
+  padding: 10px;
+  margin-top: auto;
+}
+.special-heading{
+  font-weight: 800;
+  font-size: larger;
+  letter-spacing: .3px;
+}
+.special-cards{
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card{
+  margin: 20px;
+  border-radius: 2px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 4px 4px 4px rgb(69, 69, 69);
+}
+.card img{
+  height: 100%;
+  width: 100%;
+}
+.card h2{
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  transition: 1s;
+} 
+.card:hover h2{
+  color: rgb(30, 30, 30);
+}
+
