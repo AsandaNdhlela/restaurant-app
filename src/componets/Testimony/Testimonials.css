@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+.testimonials{
+    width: 100vw;
+    height: 80vh;;
+}
+.testimonials-container{
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/09/south-african-food-potjiekos.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.testimonials-content{
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-heading{
+    font-family: "Passions Conflict";
+    font-size: 50px;
+    color: rgb(155, 155, 155);
+}
+.testimonials-subHeading{
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+}
+.testimony{
+    color: rgb(155, 155, 155);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.testimonial-name{
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    margin-top: 2rem;
+}
+.testimonial-occupation{
+    color: rgb(155, 155, 155) ;
+    font-size: larger;
+    font-weight: 500;
+}
+.testimonials-slider{
+    /* background-color: aqua; */
+    width: 45rem;
+    text-align: center;
+}
+.testimonials-card{
+    /* background-color: blueviolet; */
+    margin-top: 4rem;
+    line-height: 20px;
+    width: 100%;
+}
+.testimonial-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    height: 140px;
+    width: 140px;
+}
+.testimonial-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

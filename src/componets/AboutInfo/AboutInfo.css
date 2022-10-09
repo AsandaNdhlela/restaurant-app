@@ -5,7 +5,7 @@
     background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/09/south-african-food-potjiekos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
     align-items: center;
 }
 .aboutInfo-content{
