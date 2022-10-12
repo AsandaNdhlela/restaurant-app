@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 .specials-container{
-    height: 130vh;
+    height: 130%;
     width: 100vw;
     max-height: fit-content;
     box-sizing: border-box;
@@ -35,6 +35,7 @@
      /* background-color: orange; */
 }
 .specials-menu{
+    flex-wrap: wrap ;
     display: inline-grid;
     justify-content: space-around;
     /* background-color: red; */
@@ -43,6 +44,7 @@
 }
 .specials-meals{
     display: grid;
+    
     /* background-color: aqua; */
     margin-top: 4em ;
     margin: 20px;

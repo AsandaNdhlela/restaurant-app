@@ -2,10 +2,10 @@
 
 .testimonials{
     width: 100vw;
-    height: 80vh;;
+    height: 80vh;
 }
 .testimonials-container{
-    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/09/south-african-food-potjiekos.jpg");
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56c90a98d51cd438176dae8d/1630246177229-U0UWW8PHXN54UDYFY927/Sbumerang_identity_design.jpg?format=1000w");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
 .testimonials-heading{
     font-family: "Passions Conflict";
     font-size: 50px;
-    color: rgb(155, 155, 155);
+    color: rgb(200, 200, 200);
 }
 .testimonials-subHeading{
     font-weight: 900;
@@ -31,7 +31,7 @@
     font-size: 25px;
 }
 .testimony{
-    color: rgb(155, 155, 155);
+    color: rgb(200, 200, 200);
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -42,7 +42,7 @@
     margin-top: 2rem;
 }
 .testimonial-occupation{
-    color: rgb(155, 155, 155) ;
+    color: rgb(198, 198, 198) ;
     font-size: larger;
     font-weight: 500;
 }

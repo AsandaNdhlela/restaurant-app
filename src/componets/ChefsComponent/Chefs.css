@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+.chefs-container{
+    width: 100vw;
+    height: 100%;
+}
+.chefs-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.chefs{
+    align-items: center;
+    text-align: center;
+}
+.chef-heading{
+    font-family:"Passions Conflict";
+    font-size: 58px;
+    color: rgb(255, 0, 89);
+}
+.chefs-subHeading{
+    letter-spacing: .5px;
+    font-size: 27px;
+    font-weight: 900;
+    color: rgb(38, 38, 38);
+}
+
+.chefs-section{
+   justify-content: center;
+   text-align: center;
+    /* background-color: rgb(255, 247, 0); */
+    margin: 4rem;
+    
+}
+.chefs-aboutCards{
+    flex-wrap: wrap ;
+    display: inline-grid;
+    justify-content: space-around;
+    /* grid-gap: 1rem; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.chefs-card{
+    display: grid;
+    /* background-color: aqua; */
+    width: 300px;
+    margin: 20px;
+}
+.chef-profile{
+    width: 300px;
+    height: 250px;
+}
+.chef-profile img{
+    width: 100%;
+    height: 100%;
+}
+.chef-info{
+    /* background-color: chartreuse; */
+    padding: 10px;
+    text-align: left;
+}
+.chef-name{
+    font-size: 20px;
+    color: rgb(38, 38, 38);
+    letter-spacing: .2px;
+    line-height: 10px;
+    font-weight: 800;
+}
+.chef-position{
+    font-weight: 500;
+    color:rgb(177, 177, 177) ;
+    font-size: 16px;
+}
+.chef-socials{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    margin-left: -41px;
+}
+
+.chef-socials li a{
+    color: rgb(255, 0, 89);
+    padding: 5px;
+    text-align: left;
+    font-size: large;
+}
