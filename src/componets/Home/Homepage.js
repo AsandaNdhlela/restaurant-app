@@ -7,7 +7,7 @@ const Homepage = () => {
       <nav className="Nav-bar">
         <div className="right-logo">
           <img
-            src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/250437976_404318181437232_7271279621934097094_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SW4QMAu2GGgAX-Xd5Lv&tn=SgXVu6NG6220IiYE&_nc_ht=scontent-cpt1-1.xx&oh=00_AT8QL1sf3D2qbLI4y2kXfoy9IrWbm2lIcU9pODziqu_afw&oe=633A1CDD"
+            src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/250437976_404318181437232_7271279621934097094_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG3kXXIGRbx23g8n__gcBz3dzdlfhoFnmp3N2V-GgWeaq43elJSouOj9MgJ1yhQcSurdhQDgM3s9_8N0689s2TO&_nc_ohc=qrgKUBhL1oQAX8rR-XG&tn=SgXVu6NG6220IiYE&_nc_ht=scontent-cpt1-1.xx&oh=00_AT8Gp9lqbk7t4vOqlE40ESwUOZEEIlQsGRzdnmBfES-XGQ&oe=634BE91D"
             alt=""
             className="logo-img"
           />

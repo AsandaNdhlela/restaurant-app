@@ -9,6 +9,7 @@ import data from "./componets/Testimony/data/testimonialsdata";
 import Chefs from "./componets/ChefsComponent/Chefs";
 import chefsData from "./componets/ChefsComponent/chefsData/chefsData";
 import Reservations from "./componets/Reservations/Reservations";
+import Footer from "./componets/Footer/Footer";
 
 function App() {
   const items = data;
@@ -24,6 +25,7 @@ function App() {
       <Testimonials items={items} />
       <Chefs items={items2} />
       <Reservations />
+      <Footer />
     </div>
   );
 }
